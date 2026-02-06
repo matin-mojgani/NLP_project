@@ -1,11 +1,30 @@
+# Deep Learning & NLP
 torch>=2.2.0
 transformers>=4.38.0
 datasets>=2.18.0
+accelerate>=0.27.0
+
+# Data Processing
 pandas>=2.2.0
+numpy>=1.26.0
+
+# Machine Learning
 scikit-learn>=1.4.0
+
+# NLP Tools
 spacy>=3.7.0
+
+# Knowledge Retrieval
 wikipedia-api>=0.6.0
+
+# Utilities
 python-dotenv>=1.0.0
 tqdm>=4.66.0
+
+# Jupyter Notebook Support
 jupyter>=1.0.0
-accelerate>=0.27.0
+ipywidgets>=8.1.0
+
+# SpaCy Language Model (downloads from GitHub)
+# If this fails, run manually: python -m spacy download en_core_web_sm
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
